@@ -1,0 +1,46 @@
+{
+  "name": "app",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "gaojianjie <1075343150@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "vue": "^2.4.4"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "body-parser": "^1.18.2",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.2",
+    "file-loader": "^1.1.4",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
+    "mint-ui": "^2.2.13",
+    "mockjs": "^1.0.1-beta3",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "swiper": "^4.0.7",
+    "vue-awesome-swiper": "^3.0.6",
+    "vue-loader": "^13.5.0",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.4.4",
+    "vuex": "^3.0.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}

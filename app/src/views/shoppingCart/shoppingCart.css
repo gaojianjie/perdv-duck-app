@@ -1,0 +1,190 @@
+.shoppingCart {
+    width:100%;
+    height:100%;
+    background: #EEEEEE;
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    padding-bottom:1rem;
+}
+
+.shoppingCart_header {
+    width: 100%;
+    height: 1rem;
+    background: #FAFAFB;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 1rem;
+    font-size: .34rem;
+    flex-shrink:0;
+}
+
+.sehopingCart_section {
+    flex:1;
+    overflow:hidden;
+    overflow-y:auto;
+}
+
+.sehopingCart_section_vacancy {
+    width:100%;
+    min-height:5rem;
+    background:white;
+}
+
+.sehopingCart_section_vancancy_show{
+    width:100%;
+    height:5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.sehopingCart_section_vancancy_show dl{
+    text-align:center;
+}
+.sehopingCart_section_vancancy_show dl dt{
+    width:1.6rem;
+    height:1.6rem;
+    border:1px solid #ccc;
+    text-align:center;
+    line-height:1.6rem;
+    font-size:1rem;
+    border-radius:50%;
+    color:#A8A8A8;
+}
+
+.vacancy_first_dd{
+    font-size:.26rem;
+    margin-top:.1rem;
+}
+
+.vacancy_second_dd{
+    width:1.6rem;
+    height:.6rem;
+    border:1px  solid  #FC4545;
+    text-align:center;
+    line-height:.6rem;
+    color:#FC4545;
+    margin-top:.1rem;
+    border-radius:4px;
+}
+
+.hot_recommend{
+    width:100%;
+    height:.9rem;
+    background:white;
+    margin-top:.2rem;
+    margin-bottom:.2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hot_recommend img{
+    width:.32rem;
+    height:auto;
+    margin-left:.2rem;
+    margin-right:.2rem;
+}
+
+.recommend_list{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.recommend_list dl{
+    width:49%;
+    height:auto;
+    flex-shrink:0;
+    margin-bottom:.2rem;
+    background: white;
+}
+
+.recommend_list dl dt img{
+    width:100%;
+    height:auto;
+}
+
+.totalPrices {
+    width:100%;
+    height:1rem;
+    background: white;
+    position: absolute;
+    bottom:0;
+    left:0;
+    border-top:1px solid #ccc;
+    display:flex;
+    justify-content: space-between
+}
+
+.totalPrice_right{
+    width:2.4rem;
+    height:100%;
+    text-align:center;
+    line-height:1rem;
+    color:white;
+    background: #FC4141;
+    font-size:.34rem;
+    flex-shrink:0;
+}
+
+.input_Checkbox {
+    width: .4rem;
+    height: 0.4rem;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-left: .2rem;
+    margin-right: .2rem;
+    flex-shrink: 0;
+}
+
+.active{
+    background: #FB4141;
+    color:white;
+    border: 1px solid #FB4141;
+    text-align:center;
+    line-height:.4rem;
+    font-size:.32rem;
+    color:white
+}
+.active::after{
+    width:100%;
+    height:100%;
+    content:'√'
+}
+
+.totalPrice_left{
+    flex:1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 .2rem;
+}
+
+.totalPrice_left p:first-child{
+    width:1.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.totalPrice_left p:first-child span:last-child{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
